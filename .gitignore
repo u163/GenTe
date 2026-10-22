@@ -1,0 +1,27 @@
+# Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Python backend
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+backend/venv/
+backend/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Generated files and local settings
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
